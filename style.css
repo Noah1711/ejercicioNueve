@@ -129,6 +129,11 @@ li {
     height: 15px;
     width: 15px;
 }
+.card-pricing {
+    width: 30%;
+    border: solid 1px #808080;
+    border-radius: 5px;
+}
 
 /* Blog */
 #blog {
