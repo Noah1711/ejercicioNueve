@@ -17,6 +17,9 @@ a {
     text-decoration: none;
     color: var(--grey);
 }
+li {
+    list-style: none;
+}
 
 /* Hero */
 
@@ -120,6 +123,11 @@ a {
     .featuresItem {
         width: 33%;
     }
+}
+/*Pricing*/
+.check {
+    height: 15px;
+    width: 15px;
 }
 
 /* Blog */
