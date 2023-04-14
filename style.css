@@ -61,15 +61,16 @@ li {
    
 }
 /* Curve */
-#hero::after {
+.features::before {
     content: "";
     display: block;
     position: absolute;
-    bottom: 0;
+    top: 0;
     height: 20px;
     background-size: 100% 100%;
     width: 100%;
     background-image: url(img/curveGray.svg);
+    background-color: white;
 }
 
 /* Features */
@@ -78,6 +79,7 @@ li {
     background-color: var(--gris);
     padding: 30px;
     text-align: center;
+    position: relative;
 }
 .featuresHeading {
     display: flex;
@@ -168,6 +170,7 @@ li {
     background-color: black;
     font-size: 1rem;
     padding-top: 100px;
+    position: relative;
     z-index: -1;
 
 }
@@ -210,4 +213,17 @@ li {
 .card-dl {
     margin: 20px 0;
     font-size: 12px;
+}
+
+#footer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 20px;
+    background-size: 100% 100%;
+    width: 100%;
+    background-image: url(img/curveDarkGray.svg);
+    background-color: white;
+    z-index: 0;
 }
