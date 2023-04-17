@@ -131,8 +131,15 @@ li {
     height: 15px;
     width: 15px;
 }
+.list-item-able, .list-item-disable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-item-disable {
+    color: #b8b8b8;
+}
 .card-pricing {
-    width: 30%;
     border: solid 1px #808080;
     border-radius: 5px;
 }
