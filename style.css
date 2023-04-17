@@ -130,6 +130,18 @@ li {
 /*Pricing*/
 #pricing {
     background-color: var(--gris);
+    padding: 10px;
+}
+.card-cols {
+    margin: 20px 0;
+}
+.price {
+    font-size: 55px;
+    color: black;
+}
+.price span {
+    font-size: 30px;
+    margin: 0 10px;
 }
 .check {
     height: 15px;
@@ -144,7 +156,9 @@ li {
     color: #b8b8b8;
 }
 .card-pricing {
-    border: solid 1px #808080;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: var(--grisM) 20px 10px 10px;
     border-radius: 5px;
 }
 
